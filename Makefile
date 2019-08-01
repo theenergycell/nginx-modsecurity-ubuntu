@@ -7,7 +7,7 @@ PACKAGE_NAME = libnginx-mod-http-modsecurity
 # - reset PACKAGE_REVISION.
 # - edit spec/control and add a changelog entry there with
 #   `$(PACKAGE_VERSION)-$(PACKAGE_REVISION)` as version number.
-PACKAGE_VERSION = 1.0.2
+PACKAGE_VERSION = 1.0.1
 
 # The version of ModSecurity-nginx you want to package. This must
 # correspond to a specific tag in the ModSecurity-nginx Git repository:
@@ -43,7 +43,7 @@ NGINX_VERSION = 1.14.0
 #
 # Also, be sure to edit spec/control and add a changelog entry there
 # with `$(PACKAGE_VERSION)-$(PACKAGE_REVISION)` as version number.
-PACKAGE_REVISION = 1~bionic1
+PACKAGE_REVISION = 2~bionic1
 
 DPKG_BUILDPACKAGE_ARGS =
 
